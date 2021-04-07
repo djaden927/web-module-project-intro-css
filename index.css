@@ -42,16 +42,17 @@ blockquote, q {
     }
 html{
     font-size:62.5%;
+    font-family: ;
 }
 
 body{
     font-size:1.6rem;
     line-height:1.5;
-    font-family:font-family: 'Roboto Mono', monospace;
+    font-family:'Roboto Mono', monospace;
 }
 
 h1{
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Chelsea Market', cursive;
     font-size:5.5rem;
 }
 
@@ -59,10 +60,10 @@ section{
     padding:4% 0;
 }
 
-nave{
+nav{
     padding:25 0;
 }
-nav a{
+nav a,footer a{
     display:inline-block;
     padding:1% 0;
     border-radius:10px;
@@ -72,16 +73,20 @@ nav a{
     text-decoration:none;
 }
 
+nav a{
+    margin-top:5px;
+}
+
 .orange{
-    background-color:orange ;
+    background-color:#FF764E ;
 margin-left:10%;
 }
 .blue{
-background-color:blue ;
+background-color:#5ED3EB ;
 margin:0 24%;
 }
 .yellow{
-background-color:yellow ;
+background-color:#FFCD69 ;
 margin-right:10%;
 }
 
@@ -99,12 +104,61 @@ margin-right:10%;
 
 .left img{
  border-radius:50%;
- width:60%;
+ width: 40%;
 }
 
 .right div{
     padding:4%;
     line-height:2;
     position:absolute;
-    bottom:20%;
+
 }
+.midSection{
+    background-color: #DDB9A3;
+    text-align:center;
+    margin: 0 2%;
+    font-size: 2.2rem;
+    color: white;
+}
+
+.midSection p{
+    max-width:90%;
+    margin:0 auto;
+}
+
+.midSection p:first-child{
+    margin-bottom:8px;
+}
+
+.footerImage{
+    width:100%;
+
+}
+
+footer{
+    background-color: #F9E7DC;
+}
+
+.heroImage{
+        height:45vh;
+        background-image:url('assets/footer_img.jpg');
+        background-size:cover;
+        
+       
+        background-repeat: no-repeat;
+    }
+
+    .iconSection{
+    text-align:center;
+    }
+
+    .iconSection p{
+    max-width:25%;
+    margin:0 auto;
+    font-size:1.7rem;
+
+    }
+    .icons{
+        max-width:15%;
+       
+    }
