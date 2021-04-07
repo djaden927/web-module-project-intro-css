@@ -38,7 +38,7 @@ blockquote, q {
     *{
         box-sizing: border-box;
         max-width:100%;
-        border:1px solid grey;
+        
     }
 html{
     font-size:62.5%;
@@ -161,4 +161,8 @@ footer{
     .icons{
         max-width:15%;
        
+    }
+
+    a:hover{
+        filter: brightness(90%);
     }
